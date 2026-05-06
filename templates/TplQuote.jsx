@@ -35,7 +35,7 @@ const TplQuote = ({
 
   return (
     <div style={{
-      width: size.w * s, height: size.h * s,
+      width: size.w * s, height: size.h * s, boxSizing: 'border-box',
       background: tw.paper,
       padding: `${64*s}px ${96*s}px ${48*s}px ${64*s}px`,
       display: 'flex', flexDirection: 'column',
