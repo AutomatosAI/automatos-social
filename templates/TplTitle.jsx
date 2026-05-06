@@ -27,7 +27,7 @@ const TplTitle = ({
     <div style={{
       width: size.w * s, height: size.h * s,
       background: tw.paper, position: 'relative',
-      padding: `${64*s}px ${64*s}px ${48*s}px`,
+      padding: `${64*s}px ${96*s}px ${48*s}px ${64*s}px`,
       display: 'flex', flexDirection: 'column',
       fontFamily: tw.display,
       transform: `scale(1)`,
